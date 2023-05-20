@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>網站設計</title>
+ <style>
+  .ts1{
+   text-shadow:-4px -4px 20px yellow;
+}
+  body {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+  }
+  
+  header {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+  }
+  
+  .logo img {
+   max-width: 10%;
+   height: auto;
+
+  }
+  nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #333;
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+}
+
+
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px;
+  background-color: #311;
+  padding: 0;
+  border: 1px solid #ddd;
+}
+
+nav ul ul li {
+  float: none;
+  position: relative;
+}
+
+nav ul ul li a {
+  line-height: 40px;
+  padding: 10px 20px;
+}
+
+nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 200px;
+}
+
+ul li ul {
+  display: none;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+  main {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+  
+  main section {
+   flex-basis: 45%;
+   margin-bottom: 20px;
+  }
+  
+  main section:nth-child(2) {
+   text-align: right;
+  }
+
+  h2 {
+   color: yellow;
+   font-size: 2.5em;
+   text-align: center;
+  }
+
+  main section p {
+   font-size: 24px;
+   line-height: 1.5;
+   text-align: center;
+  }
+
+  main section img {
+   max-width: 100%;
+   height: auto;
+  }
+
+  footer {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  
+  footer p {
+   margin: 0;
+   font-size: 14px;
+  }
+ </style>
+</head>
+<body>
+ <header>
+  <div class="logo">
+   <img src="GSlogo.png" alt="">
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">首頁</a></li>
+      <li>
+        <a href="#">球隊成員</a>
+        <ul>
+          <li><a href="#">教練團</a></li>
+          <li><a href="#">球員</a>
+  <ul>
+            <li><a href="#">Stephen Curry</a></li>
+            <li><a href="#">Klay Thompson</a></li>
+            <li><a href="#">Draymond Green</a></li>
+          </ul></li>
+        </ul>
+      </li>
+      <li><a href="#">賽程</a></li>
+      <li><a href="#">最新消息</a></li>
+      <li><a href="#">聯絡我們</a></li>
+    </ul>
+  </nav>
+</header>
+</header>
+<main>
+  <section style="flex-basis: 45%;">
+    <h2>金州勇士</h2>
+    <p>金州勇士（英語：Golden State Warriors，簡稱：GSW），分屬於NBA聯盟西區聯盟的太平洋組。<br/>
+ 球隊的格言為「全隊即為一城」（The whole team is a city）。</p>
+  </section>
+  <section style="flex-basis: 55%;">
+    <img src="mainlogo.jpg" alt="Image" style="width: 1660px;">
+  </section>
+  <section style="flex-basis: 55%;">
+    <img src="main.jpg" alt="Image" style="width: 1660px;">
+  </section>
+  <section style="flex-basis: 45%;">
+    <h2>球隊戰績</h2>
+    <p>7次總冠軍:1947,1956,1975,2015,2017,2018,2022<br/>
+ 單季例行賽最佳戰績:73勝9負<br/>
+ 跨賽季連勝記錄:54連勝<br/>
+ 季後賽奪冠最高勝率:16勝1負
+ </p>
+  </section>
+<section style="flex-basis: 100%;">
+    <h2>球員介紹</h2>
+  </section>
+<section style="flex-basis: 20%; text-align: center">
+    <img src="Curry.jpg" alt="Image" style="width: 340px;">
+    <p>Stephen Curry</p>
+  </section>
+<section style="flex-basis: 20%; text-align: center">
+    <img src="Klay.jpg" alt="Image" style="width: 340px;">
+    <p>Klay Thompson</p>
+  </section>
+<section style="flex-basis: 20%; text-align: center">
+    <img src="Wiggins.jpg" alt="Image" style="width: 340px;">
+    <p>Andrew Wiggins</p>
+  </section>
+<section style="flex-basis: 20%; text-align: center">
+    <img src="Green.jpg" alt="Image" style="width: 340px;">
+    <p>Draymond Green</p>
+  </section>
+<section style="flex-basis: 20%; text-align: center">
+    <img src="Looney.jpg" alt="Image" style="width: 340px;">
+    <p>Kevon Looney</p>
+  </section>
+</main>
+<footer>
+ <p>3B017161 向子勤</p>
+</footer>
+</body>
+</html>

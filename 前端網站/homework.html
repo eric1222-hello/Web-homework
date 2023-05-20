@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>VNL排球賽事介紹</title>
+ <style>
+  body {
+   background-color: #E6F2FF;
+   color: #333;
+   padding: 10px;
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+  }
+  
+  header {
+   background-color: #003366;
+   color: #fff;
+   padding: 10px;
+   margin-bottom: 20px;
+  }
+  
+  .logo img {
+   max-width: 100%;
+   height: auto;
+  }
+  
+  nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #333;
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+}
+
+
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px;
+  background-color: #311;
+  padding: 0;
+  border: 1px solid #ddd;
+}
+
+nav ul ul li {
+  float: none;
+  position: relative;
+}
+
+nav ul ul li a {
+  line-height: 40px;
+  padding: 10px 20px;
+}
+
+nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 200px;
+}
+
+ul li ul {
+  display: none;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+  
+  main {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+  
+  main section {
+   flex-basis: 45%;
+   margin-bottom: 20px;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+  }
+  
+  h2 {
+   color: #003366;
+   font-size: 2em;
+   margin-top: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  main section p {
+   font-size: 16px;
+   margin-bottom: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  main section img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   border: 1px solid #ddd;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+   background-color: #003366;
+   color: #fff;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  
+  footer p {
+   margin: 0;
+   font-size: 12px;
+   font-family: Arial, sans-serif;
+  }
+ </style>
+</head>
+<body>
+ <header>
+  <div class="logo">
+   <img src="volleyball_logo.png" alt="">
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">首頁</a></li>
+      <li>
+        <a href="#">賽事資訊</a>
+        <ul>
+          <li><a href="#">排球規則</a></li>
+          <li><a href="#">球隊介紹</a>
+            <ul>
+              <li><a href="#">國家隊</a></li>
+              <li><a href="#">參賽隊伍</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">賽程表</a></li>
+      <li><a href="#">積分排名</a></li>
+      <li><a href="#">聯絡我們</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>VNL排球賽事介紹</h2>
+    <p>VNL（Volleyball Nations League）是國際排球聯合會（FIVB）所舉辦的年度排球賽事，由世界各國的國家隊參與。</p>
+  </section>
+  <section>
+    <img src="volleyball_match.jpg" alt="排球比賽">
+  </section>
+  <section>
+    <h2>參賽國家隊</h2>
+    <p>在VNL排球賽事中，各國派出代表國家的排球隊伍參賽，包括世界上的排球強國如巴西、美國、俄羅斯等。</p>
+  </section>
+  <section>
+    <img src="teams.jpg" alt="參賽國家隊">
+  </section>
+</main>
+<footer>
+ <p>四訊二丙 3B017138 楊程勛</p>
+</footer>
+</body>
+</html>
